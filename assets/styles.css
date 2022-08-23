@@ -99,30 +99,18 @@
     }
 }
 
-@media only screen and (min-width: 900px) {
-
-    .hero {
-        background: red;
-        color: #0d0d0d
-    }
-
-
-    .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-    img {
-        width: 100%;
-    }
-}
 
 @media only screen and (min-width: 950px) {
 
+    .navbar-brand {
+        margin-left: 40px;
+    }
+
+    .nav-item {
+        margin-left: 100px;
+    }
+
     .hero {
-        background: blue;
         color: #0d0d0d
     }
 
