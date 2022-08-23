@@ -5,6 +5,10 @@
 
 @media only screen and (max-width: 600px) {
 
+    .nav-item {
+        text-align: center;
+    }
+
     .hero {
         background: #fef9f8;
         color: #0d0d0d
@@ -39,7 +43,7 @@
     
     .button-35 {
       align-items: center;
-      background-color: #fff;
+      background-color: #fef9f8;
       border-radius: 12px;
       box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
       box-sizing: border-box;
@@ -102,6 +106,12 @@
 
 @media only screen and (min-width: 950px) {
 
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .navbar-brand {
         margin-left: 40px;
     }
@@ -110,19 +120,17 @@
         margin-left: 100px;
     }
 
+    nav {
+        margin-bottom: 50px;
+    }
+
     .hero {
         color: #0d0d0d
     }
 
-
-    .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-    img {
-        width: 100%;
+    .title {
+        width: 70%;
+        padding: 30px 250px;
+        text-align: justify;
     }
 }
