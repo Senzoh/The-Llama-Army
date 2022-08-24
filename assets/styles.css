@@ -120,6 +120,10 @@
         margin-left: 100px;
     }
 
+    .nav-item:hover{
+        background-color: #dedede;
+    }
+
     nav {
         margin-bottom: 50px;
     }
